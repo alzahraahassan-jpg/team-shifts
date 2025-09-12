@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Team Schedule</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+    th, td { border: 1px solid #999; padding: 8px; text-align: center; }
+    th { background-color: #f2f2f2; }
+    .download-btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .download-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h2>Team Schedule</h2>
+
+  <table>
+    <tr>
+      <th>Employee</th>
+      <th>Shift Start</th>
+      <th>Shift End</th>
+    </tr>
+    <tr>
+      <td>Ahmed</td>
+      <td>09:00</td>
+      <td>17:00</td>
+    </tr>
+    <tr>
+      <td>Sara</td>
+      <td>10:00</td>
+      <td>18:00</td>
+    </tr>
+    <tr>
+      <td>Omar</td>
+      <td>11:00</td>
+      <td>19:00</td>
+    </tr>
+  </table>
+
+  <!-- زرار لتحميل الشيت -->
+  <a href="TeamSchedule.xlsx" class="download-btn" download>📥 Download Excel</a>
+</body>
+</html>
