@@ -1,2 +1,2 @@
 # team-shifts
-SQSP Weekly Schedule
+TeamSchedule.xlsx
